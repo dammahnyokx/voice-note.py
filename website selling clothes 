@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Developer Portfolio Showcasing Vibrant E-Commerce Sites">
+    <title>Your Name - Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-amber-50 font-poppins">
+    <header class="bg-gradient-to-r from-red-500 to-orange-500 text-white py-6 text-center">
+        <h1 class="text-4xl font-bold">Your Name</h1>
+        <p class="mt-2">Web Developer | Crafting Vibrant E-Commerce Experiences</p>
+    </header>
+
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-red-600 mb-10">My Projects</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-all">
+                <h3 class="text-2xl font-semibold text-orange-600">StyleHub - Clothing Shop</h3>
+                <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3" alt="StyleHub Screenshot" class="w-full h-64 object-cover rounded-lg my-4">
+                <p class="text-gray-700">Designed a vibrant e-commerce site for a Kenyan clothing shop using HTML, CSS, Tailwind, and JavaScript. Features bold colors, responsive design, and animations for an engaging user experience.</p>
+                <p class="mt-4">
+                    <a href="https://your-live-demo-link" class="text-red-500 hover:underline">Live Demo</a> | 
+                    <a href="https://github.com/yourusername/stylehub" class="text-red-500 hover:underline">GitHub</a>
+                </p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <section class="py-16 bg-teal-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-red-600 mb-10">About Me</h2>
+            <p class="text-center max-w-2xl mx-auto text-gray-700">I’m a passionate web developer based in Nairobi, specializing in vibrant, user-friendly e-commerce sites. Proficient in HTML, CSS, JavaScript, and Tailwind CSS, I bring Kenyan culture to life through bold designs.</p>
+        </div>
+    </section>
+
+    <footer class="bg-gradient-to-r from-red-500 to-orange-500 text-white py-6 text-center">
+        <p>Email: your.email@example.com | 
+           <a href="https://linkedin.com/in/yourname" class="text-yellow-300 hover:underline">LinkedIn</a> | 
+           <a href="https://github.com/yourusername" class="text-yellow-300 hover:underline">GitHub</a>
+        </p>
+        <p>&copy; 2025 Your Name</p>
+    </footer>
+</body>
+</html>
